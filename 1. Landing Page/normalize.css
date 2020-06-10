@@ -39,9 +39,12 @@
   
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0;
   }
   
+  h2{
+    margin: 0;
+  }
   /* Grouping content
      ========================================================================== */
   
@@ -75,8 +78,13 @@
   
   a {
     background-color: transparent;
+    text-decoration: none;
   }
   
+  ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
   /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
